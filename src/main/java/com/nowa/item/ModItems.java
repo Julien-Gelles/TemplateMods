@@ -26,7 +26,7 @@ public class ModItems {
     }
 
     public static void registerModItems() {
-        LOGGER.info("└─ Registering Mod Items for " + MOD_ID);
+        LOGGER.info("├─ Registering Mod Items for " + MOD_ID);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
     }
 }

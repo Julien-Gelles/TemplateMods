@@ -24,6 +24,6 @@ public class ModItemGroups {
 
 
     public static void registerItemGroups() {
-        LOGGER.info("├─ Registering Item Groups for " + MOD_ID);
+        LOGGER.info("├─ Registering Mod Item Groups for " + MOD_ID);
     }
 }
