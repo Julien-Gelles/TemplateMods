@@ -1,5 +1,6 @@
 package com.nowa;
 
+import com.nowa.block.ModBlocks;
 import com.nowa.item.ModItemGroups;
 import com.nowa.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -16,5 +17,6 @@ public class TemplateMod implements ModInitializer {
 		LOGGER.info("Hello Fabric world!");
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
