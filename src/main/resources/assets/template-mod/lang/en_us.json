@@ -2,5 +2,8 @@
   "item.template-mod.ruby": "Ruby",
   "item.template-mod.raw_ruby": "Raw Ruby",
 
+  "block.template-mod.ruby_block": "Ruby Block",
+  "block.template-mod.raw_ruby_block": "Raw Ruby Block",
+
   "itemgroup.ruby": "Ruby Group"
 }
