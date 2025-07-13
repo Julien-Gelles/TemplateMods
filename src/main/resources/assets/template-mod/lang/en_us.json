@@ -4,6 +4,7 @@
 
   "block.template-mod.ruby_block": "Ruby Block",
   "block.template-mod.raw_ruby_block": "Raw Ruby Block",
+  "block.template-mod.deepslate_raw_ruby_block": "Deepslate Raw Ruby Block",
 
   "itemgroup.ruby": "Ruby Group"
 }
