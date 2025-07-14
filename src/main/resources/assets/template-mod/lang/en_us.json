@@ -3,8 +3,8 @@
   "item.template-mod.raw_ruby": "Raw Ruby",
 
   "block.template-mod.ruby_block": "Ruby Block",
-  "block.template-mod.raw_ruby_block": "Raw Ruby Block",
-  "block.template-mod.deepslate_raw_ruby_block": "Deepslate Raw Ruby Block",
+  "block.template-mod.ruby_ore": "Ruby Ore",
+  "block.template-mod.deepslate_ruby_ore": "Deepslate Ruby Ore",
 
   "itemgroup.ruby": "Ruby Group"
 }
