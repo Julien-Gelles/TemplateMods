@@ -12,8 +12,8 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 
-import static com.nowa.TemplateMod.LOGGER;
-import static com.nowa.TemplateMod.MOD_ID;
+import static com.nowa.ShinyDepths.LOGGER;
+import static com.nowa.ShinyDepths.MOD_ID;
 
 public class ModBlocks {
 

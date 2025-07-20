@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "template-mod",
+	"id": "shiny-depths",
 	"version": "${version}",
-	"name": "Template Mod",
-	"description": "This is a mod project and still don't know what it is about atm oO.",
+	"name": "Shiny Depths",
+	"description": "",
 	"authors": [
 		"Me!"
 	],
@@ -12,21 +12,21 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/template-mod/icon.png",
+	"icon": "assets/shiny-depths/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.nowa.TemplateMod"
+			"com.nowa.ShinyDepths"
 		],
 		"client": [
-			"com.nowa.TemplateModClient"
+			"com.nowa.ShinyDepthsClient"
 		],
 		"fabric-datagen": [
-			"com.nowa.TemplateModDataGenerator"
+			"com.nowa.ShinyDepthsDataGenerator"
 		]
 	},
 	"mixins": [
-		"template-mod.mixins.json"
+		"shiny-depths.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",

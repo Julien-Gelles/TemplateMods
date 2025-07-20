@@ -1,0 +1,9 @@
+{
+  "item.template-mod.ruby": "Ruby",
+
+  "block.template-mod.ruby_block": "Ruby Block",
+  "block.template-mod.ruby_ore": "Ruby Ore",
+  "block.template-mod.deepslate_ruby_ore": "Deepslate Ruby Ore",
+
+  "itemgroup.ruby": "Ruby Group"
+}

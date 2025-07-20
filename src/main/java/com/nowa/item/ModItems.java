@@ -9,17 +9,11 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-import static com.nowa.TemplateMod.LOGGER;
-import static com.nowa.TemplateMod.MOD_ID;
+import static com.nowa.ShinyDepths.LOGGER;
+import static com.nowa.ShinyDepths.MOD_ID;
 
 public class ModItems {
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
-    public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
-
-//    private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
-//        entries.add(RUBY);
-//        entries.add(RAW_RUBY);
-//    }
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(MOD_ID, name), item);
@@ -27,6 +21,5 @@ public class ModItems {
 
     public static void registerModItems() {
         LOGGER.info("├─ Registering Mod Items for " + MOD_ID);
-//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
     }
 }
